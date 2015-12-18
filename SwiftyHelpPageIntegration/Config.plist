@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base_url</key>
+	<string>https://alma-grower.herokuapp.com/aps/1.0</string>
+	<key>help_images</key>
+	<array>
+		<string>Alma-Quality-Help-1</string>
+		<string>Alma-Quality-Help-2</string>
+	</array>
+	<key>good_sample_url</key>
+	<string>http://appirio-mobile.s3.amazonaws.com/distribution/Alma/cane1.png</string>
+	<key>your_sample_url</key>
+	<string>http://appirio-mobile.s3.amazonaws.com/distribution/Alma/cane2.png</string>
+</dict>
+</plist>

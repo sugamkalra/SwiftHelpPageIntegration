@@ -15,6 +15,12 @@
 		15FF98581C23BF2500B95D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FF98561C23BF2500B95D43 /* LaunchScreen.storyboard */; };
 		15FF98631C23BF2500B95D43 /* SwiftyHelpPageIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF98621C23BF2500B95D43 /* SwiftyHelpPageIntegrationTests.swift */; };
 		15FF986E1C23BF2500B95D43 /* SwiftyHelpPageIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF986D1C23BF2500B95D43 /* SwiftyHelpPageIntegrationUITests.swift */; };
+		15FF987D1C23BF8E00B95D43 /* CaneQualityHelpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF987C1C23BF8E00B95D43 /* CaneQualityHelpPageViewController.swift */; };
+		15FF987F1C23BFD700B95D43 /* CaneQualityHelpContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF987E1C23BFD700B95D43 /* CaneQualityHelpContentViewController.swift */; };
+		15FF98811C23BFF800B95D43 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15FF98801C23BFF800B95D43 /* Config.plist */; };
+		15FF98831C23C01200B95D43 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF98821C23C01200B95D43 /* Config.swift */; };
+		15FF98851C23C11F00B95D43 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF98841C23C11F00B95D43 /* UIExtensions.swift */; };
+		15FF98871C23C1C400B95D43 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF98861C23C1C400B95D43 /* FoundationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		15FF98691C23BF2500B95D43 /* SwiftyHelpPageIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyHelpPageIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FF986D1C23BF2500B95D43 /* SwiftyHelpPageIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyHelpPageIntegrationUITests.swift; sourceTree = "<group>"; };
 		15FF986F1C23BF2500B95D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FF987C1C23BF8E00B95D43 /* CaneQualityHelpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneQualityHelpPageViewController.swift; sourceTree = "<group>"; };
+		15FF987E1C23BFD700B95D43 /* CaneQualityHelpContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneQualityHelpContentViewController.swift; sourceTree = "<group>"; };
+		15FF98801C23BFF800B95D43 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		15FF98821C23C01200B95D43 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		15FF98841C23C11F00B95D43 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		15FF98861C23C1C400B95D43 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		15FF98491C23BF2500B95D43 /* SwiftyHelpPageIntegration */ = {
 			isa = PBXGroup;
 			children = (
+				15FF987B1C23BF2B00B95D43 /* HelpPage */,
 				15FF984A1C23BF2500B95D43 /* AppDelegate.swift */,
 				15FF984C1C23BF2500B95D43 /* ViewController.swift */,
 				15FF984E1C23BF2500B95D43 /* Main.storyboard */,
@@ -126,6 +139,19 @@
 				15FF986F1C23BF2500B95D43 /* Info.plist */,
 			);
 			path = SwiftyHelpPageIntegrationUITests;
+			sourceTree = "<group>";
+		};
+		15FF987B1C23BF2B00B95D43 /* HelpPage */ = {
+			isa = PBXGroup;
+			children = (
+				15FF987C1C23BF8E00B95D43 /* CaneQualityHelpPageViewController.swift */,
+				15FF987E1C23BFD700B95D43 /* CaneQualityHelpContentViewController.swift */,
+				15FF98801C23BFF800B95D43 /* Config.plist */,
+				15FF98821C23C01200B95D43 /* Config.swift */,
+				15FF98841C23C11F00B95D43 /* UIExtensions.swift */,
+				15FF98861C23C1C400B95D43 /* FoundationExtensions.swift */,
+			);
+			name = HelpPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15FF98811C23BFF800B95D43 /* Config.plist in Resources */,
 				15FF98581C23BF2500B95D43 /* LaunchScreen.storyboard in Resources */,
 				15FF98551C23BF2500B95D43 /* Assets.xcassets in Resources */,
 				15FF98501C23BF2500B95D43 /* Main.storyboard in Resources */,
@@ -260,8 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				15FF984D1C23BF2500B95D43 /* ViewController.swift in Sources */,
+				15FF98851C23C11F00B95D43 /* UIExtensions.swift in Sources */,
 				15FF984B1C23BF2500B95D43 /* AppDelegate.swift in Sources */,
+				15FF987F1C23BFD700B95D43 /* CaneQualityHelpContentViewController.swift in Sources */,
+				15FF98871C23C1C400B95D43 /* FoundationExtensions.swift in Sources */,
 				15FF98531C23BF2500B95D43 /* SwiftyHelpPageIntegration.xcdatamodeld in Sources */,
+				15FF987D1C23BF8E00B95D43 /* CaneQualityHelpPageViewController.swift in Sources */,
+				15FF98831C23C01200B95D43 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
